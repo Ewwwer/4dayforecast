@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(47,150,164);
+    font-family: sans-serif;
+    color: white;
+}
+.tiempo-actual{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-timezone{
+    margin-bottom: 5vh;
+}
+.location{
+    margin-bottom: 1vh;    
+}
+.temperature-description{
+    margin-bottom: 5vh;
+}
+.temperature {
+    flex-direction: column;   
+}
+
+.degree-section {
+    
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span {
+    
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.divisorio{
+    width: 60%;
+    background-color: white;
+    height: 1px;
+    margin-left: 20%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.resumen-5-dias{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: -webkit-inline-box;
+    width: 100%;
+}
+
+.dia1{
+    width: 25%;
+    text-align: center;
+}
+
+.dia1-nombre{
+    font-size: 15px;
+}
+.dia1-icono{
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+}
+.temp-dia-1 h2 {
+    font-size: 20px;
+    display: inline;
+}
+
